@@ -1,0 +1,205 @@
+* {
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth; }
+
+button {
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  color: white;
+  background-color: darkslategrey; }
+  button:hover {
+    background-color: #133838; }
+
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://img.freepik.com/foto-gratis/tabla-cortar-madera-rodeada-platos-pasta-e-ingredientes-mesa_23-2148246798.jpg?w=2000");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+  #hero h1 {
+    color: white; }
+
+#quienes_somos {
+  background-color: #141616; }
+  #quienes_somos .container {
+    text-align: center;
+    padding: 200px 12px;
+    color: aliceblue;
+    text-align: center;
+    padding: 200px 12px;
+    color: aliceblue; }
+
+#final {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #1e1e1e;
+  color: white;
+  height: 80vh; }
+  #final h2 {
+    font-size: 9vw; }
+
+#nuestras_recetas {
+  background-color: #133838; }
+
+footer {
+  background-color: #133838; }
+  footer p {
+    margin: 0;
+    padding: 12px;
+    color: white; }
+  footer .container {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; }
+
+#nuestras_cocina {
+  background-color: #1e1e1e;
+  color: white;
+  text-align: center; }
+  #nuestras_cocina .container {
+    padding: 150px 12px; }
+  #nuestras_cocina .cardD {
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+    max-width: 800PX;
+    margin: auto;
+    margin-bottom: 20PX; }
+
+#nuestros_cocina p {
+  display: none;
+  display: none; }
+
+.container h2 {
+  margin-bottom: 100px;
+  margin-bottom: 100px; }
+
+.cardD:first-child {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("IMG/CARNES.jpg"); }
+
+.cardD:nth-child(2) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("IMG/PIZZA.jpg"); }
+
+.cardD:nth-child(3) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("IMG/SUHSI.jpg"); }
+
+#nuestras_pasteleria {
+  background-color: #1e1e1e;
+  color: white;
+  text-align: center; }
+  #nuestras_pasteleria .container {
+    padding: 150px 12px; }
+  #nuestras_pasteleria .card {
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+    max-width: 800PX;
+    margin: auto;
+    margin-bottom: 20PX; }
+
+.card:first-child {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("IMG/MEIA LUNAS.jpg"); }
+
+.card:nth-child(2) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("IMG/TIRAMISU.jpg"); }
+
+.card:nth-child(3) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("IMG/CHESCAKE.jpg"); }
+
+#quienes_carne {
+  background-color: #141616; }
+
+#final-comidas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #1e1e1e;
+  color: white;
+  height: 80vh; }
+  #final-comidas h2 {
+    font-size: 9vw; }
+
+@media (min-width: 850px) {
+  #quienes_somos .container {
+    display: flex;
+    justify-content: space-evenly; }
+  #quienes_somos .texto {
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  #quienes_somos h2 {
+    margin-top: 0px; }
+  #quienes_somos .img-container {
+    background-image: url("IMG/imagen cover.png");
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 450px; }
+  #quienes_carnes .container {
+    display: flex;
+    justify-content: space-evenly; }
+  #quienes_carnes .texto {
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  #quienes_carnes h2 {
+    margin-top: 0px; }
+  #quienes_carnes .img-container {
+    background-image: url("IMG/CARNES.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 450px;
+    margin: 20px;
+    border-radius: 2em; }
+  #quienes_pizza .container {
+    display: flex;
+    justify-content: space-evenly; }
+  #quienes_pizza .texto {
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  #quienes_pizza h2 {
+    margin-top: 0px; }
+  #quienes_pizza .img-container {
+    background-image: url("IMG/PIZZA.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 450px;
+    margin: 20px;
+    border-radius: 2em; } }

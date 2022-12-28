@@ -1,0 +1,22 @@
+{
+  "name": "clqq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass --include-path scss scss/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LautaroGodoyGrosso/Cocina-lo-que-quieras.git"
+  },
+  "author": "lautaro godoy grosso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LautaroGodoyGrosso/Cocina-lo-que-quieras/issues"
+  },
+  "homepage": "https://github.com/LautaroGodoyGrosso/Cocina-lo-que-quieras#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
